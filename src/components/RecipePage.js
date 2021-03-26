@@ -2,7 +2,7 @@ import ArticleCard from "../components/ArticleCard";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import LikeCounter from "./LikeCounter";
-export default function MainContent() {
+export default function RecipePage() {
   const [recipe, set_recipe] = useState([]);
   const [counter, set_counter] = useState(0);
   useEffect(() => {
